@@ -1,0 +1,39 @@
+apiVersion: v1
+kind: Secret
+metadata:
+    name: db-passwb
+    namespace: default
+type: Opaque
+StringData:
+    password: randomly-generated-password
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2021-04-22T11:18:00Z"
+    mac: ENC[AES256_GCM,data:6S0pOv/cHj5EhCg7dEhEubJvEVBGme8pSapspFZWbxXnlh0Hx1j+UzNFEzHEoTe7ncoj9ZYr7JP+PsxcFK6SlFElkTdvYBLH4g5oH783GCwwND3c/HEB47N8eXk82xuqHxjc1XI2YuRReVZc8vB5Wt9qj41CwiyqaTw37+xxIDk=,iv:jbeiKblALs1ZCQuaMap4SdZba/+6lo0S1H6Rb38fzFM=,tag:rvaxPSNDe5kJLgMdwhzw2g==,type:str]
+    pgp:
+        - created_at: "2021-04-22T11:17:59Z"
+          enc: |
+            -----BEGIN PGP MESSAGE-----
+
+            hQIMAybvitrOPLFLAQ//QHAH+dUjd5pdldebXgDbF9mtj6erzUFMBXxSRWuGSDXr
+            RkZf0YmOx2ARiYdHZFNE1KZ/LFRIFbpfbZzb5PiYfFUWODI8sd+D3iFMaQBkgNJx
+            FWS3+vp1DGfA2uUhtjjBFjE+a5qidrzOuvHKmeSJ3bi6LnVz9iztHangW+V0ej5t
+            4tivLetM/nK5D3W16pOxX1+OmLsuYXxLakC6+ZeAkw3AsTzEpuUJIMjaCsK0F4cH
+            HHP7cBK/JdfcCoSfievxo1QDUqH9rAoTlfc8GAuioG0ROxgVWOWb3yFGvzp4cnvC
+            ijpxwSj5IDKWz6v3vxGS5GojAfhGORnIP4jQihDiaO0HfHGsfckVPTPBjPiuAQQG
+            Q9UCl/CaRVg5s1PJ6E4mYKltax+kpHrPddLyNgne7QnG6Hzk6BSwpFYiPvyOq0cg
+            9aOUhr02/WfRwLXLo0cSwd09EKtk1/oz2abqP8dc+KI5phOqCr4g3UgmsXIkdVLh
+            2RuzkFpZ0n0dy10ws/d4nb9+Lr0CWgYAqIGcg5tHaqW7XmOcwo7HfVOKXCE3xqmr
+            45lkVkjf1ThPILUxt/Oj3fSMNFKoJnI2HrnfXWTIsesyEUJSTCgF3r70ldFYEiMC
+            RySQw6QcBo9V5ARX87RMOgdqaLnGrenk5YBrVyOeDTqCYQENQXN9l48bXK8g1F/S
+            XgHPk+WPeR4eKVpKtTQlPcc4Dh6Krk1Kia1eXCKTBxuTwcn2+v8/U1HfhQLIkJu5
+            DMK0AM2EA2rzkkKioI3z2OLzWbiUk+cLprWoeUBeMayKEOzC4smWAfNowLAq0RU=
+            =hsAT
+            -----END PGP MESSAGE-----
+          fp: 95C5C05F7AA23BF34420593FCCD8ED6A048B5404
+    encrypted_regex: ^(data|stringData)$
+    version: 3.7.1
