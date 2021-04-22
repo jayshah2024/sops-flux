@@ -20,5 +20,5 @@ spec:
         - containerPort: 80
         envFrom:
         - secretRef:
-            name: db-passwd
+            name: db-passwb
 
