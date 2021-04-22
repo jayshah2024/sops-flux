@@ -21,7 +21,7 @@ spec:
   decryption:
     provider: sops
     secretRef:
-      name: sops-gpg 
+      name: sops-pgp 
   interval: 10m0s
   path: ./clusters/cluster0
   prune: true
